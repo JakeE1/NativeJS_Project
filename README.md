@@ -15,10 +15,12 @@ It is required for you to have MAMP or alternative local server environment. Be 
 `cd NativeJS_Project`
 
 ### Install dependencies
-`npm install`
-`npm i -g json-server`
-`Set-ExecutionPolicy RemoteSigned -Scope CurrentUser` 
-`json-server db.json`
+```
+ npm install
+ npm i -g json-server
+ Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+ json-server db.json
+ ```
 
 ### Run an example
 
